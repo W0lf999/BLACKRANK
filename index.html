@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Rank - Engineering Power. Shaping Industries. Defining the Future.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Black Rank - Leading engineering and industrial innovation company delivering world-class EPC, O&M, and smart solutions across energy, infrastructure, and heavy industries.">
+    <meta name="keywords" content="engineering, energy, industrial, EPC, O&M, smart solutions, Black Rank">
+</head>
+<body>
+    <!-- Navigation Menu Overlay -->
+    <div id="menuOverlay" class="menu-overlay">
+        <div class="menu-content">
+            <button class="close-menu" onclick="closeMenu()">&times;</button>
+            <div class="menu-items">
+                <div class="menu-section">
+                    <h3>About Black Rank</h3>
+                    <p>Black Rank stands at the forefront of engineering and industrial innovation, delivering world-class EPC, O&M, and smart solutions across the energy, infrastructure, heavy industries, and digital transformation sectors.</p>
+                </div>
+                
+                <div class="menu-section">
+                    <h3>Our 12 Core Business Sectors</h3>
+                    <div class="sectors-grid">
+                        <div class="sector-item">🏙️ Smart Cities & Real Estate</div>
+                        <div class="sector-item">🌡️ Thermal Insulation & Industrial Cooling</div>
+                        <div class="sector-item">🤖 Automation & Digital Transformation</div>
+                        <div class="sector-item">⚙️ Mechanical Works & Industrial Fabrication</div>
+                        <div class="sector-item">🛡️ Defense & Security Solutions</div>
+                        <div class="sector-item">🏭 Heavy Industries & Petrochemicals</div>
+                        <div class="sector-item">🏗️ Construction & Engineering (EPC)</div>
+                        <div class="sector-item">💧 Water & Environmental Solutions</div>
+                        <div class="sector-item">🔍 Industrial Inspection & Testing</div>
+                        <div class="sector-item">🚗 Smart Transportation</div>
+                        <div class="sector-item">🛢️ Oil & Gas Services</div>
+                        <div class="sector-item">⚡ Energy & Renewable Energy</div>
+                    </div>
+                </div>
+                
+                <div class="menu-section">
+                    <div class="menu-buttons">
+                        <a href="about.html" class="menu-btn">About Us</a>
+                        <a href="services.html" class="menu-btn">Our Services</a>
+                        <a href="contact.html" class="menu-btn">Contact Us</a>
+                        <a href="assets/blackrankengRev1.pdf" class="menu-btn download-btn" download>
+                            <i class="fas fa-download"></i> Download Company Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="home-page">
+        <!-- Header with Menu Button -->
+        <header class="main-header">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="Black Rank Logo" class="logo">
+            </div>
+            <button class="menu-toggle" onclick="openMenu()" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <!-- Hero Section with Image Slider -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Engineering Power.<br>Shaping Industries.<br>Defining the Future.</h1>
+                <p class="hero-subtitle">Black Rank For Maintenance & Energy Services</p>
+                <p class="hero-description">Over 14 years of expertise in Engineering, Energy, and Heavy Industries</p>
+                
+                <!-- Company Introduction -->
+                <div class="company-intro">
+                    <h2>Leading Industrial Innovation</h2>
+                    <p>Black Rank stands as a beacon of excellence in the engineering and industrial sectors, delivering comprehensive solutions that power progress across multiple industries. Our commitment to innovation, quality, and sustainability drives us to exceed expectations in every project we undertake.</p>
+                </div>
+            </div>
+            
+            <!-- Image Slider -->
+            <div class="image-slider">
+                <div class="slider-container">
+                    <div class="slide active">
+                        <img src="assets/img-1.jpg" alt="Power Plant Maintenance and Industrial Operations">
+                        <div class="slide-caption">Power Plant Maintenance & Industrial Operations</div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img-2.jpg" alt="Solar Energy Systems and Renewable Solutions">
+                        <div class="slide-caption">Solar Energy Systems & Renewable Solutions</div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img-3.jpg" alt="Advanced Alloy Steel Pipe Welding">
+                        <div class="slide-caption">Advanced Alloy Steel Pipe Welding</div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img-4.jpg" alt="Industrial Excellence and Engineering Projects">
+                        <div class="slide-caption">Industrial Excellence & Engineering Projects</div>
+                    </div>
+                </div>
+                
+                <!-- Slider Controls -->
+                <button class="slider-btn prev" onclick="changeSlide(-1)" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next" onclick="changeSlide(1)" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <!-- Slider Indicators -->
+                <div class="slider-indicators">
+                    <span class="indicator active" onclick="currentSlide(1)" aria-label="Go to slide 1"></span>
+                    <span class="indicator" onclick="currentSlide(2)" aria-label="Go to slide 2"></span>
+                    <span class="indicator" onclick="currentSlide(3)" aria-label="Go to slide 3"></span>
+                    <span class="indicator" onclick="currentSlide(4)" aria-label="Go to slide 4"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Statistics Section -->
+        <section class="stats-section">
+            <div class="container">
+                <h2 class="section-title">Our Track Record</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="stat-number">14+</div>
+                        <div class="stat-label">Years of Excellence</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Core Business Sectors</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Completed Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Satisfied Clients</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Services Preview -->
+        <section class="services-preview">
+            <div class="container">
+                <h2 class="section-title">Our Core Services</h2>
+                <div class="services-preview-grid">
+                    <div class="service-preview-card">
+                        <div class="service-preview-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>EPC Solutions</h3>
+                        <p>Complete Engineering, Procurement, and Construction services for industrial projects.</p>
+                        <a href="services.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                    <div class="service-preview-card">
+                        <div class="service-preview-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>O&M Services</h3>
+                        <p>Comprehensive Operations and Maintenance solutions for optimal performance.</p>
+                        <a href="services.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                    <div class="service-preview-card">
+                        <div class="service-preview-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Energy Solutions</h3>
+                        <p>Renewable energy systems and power generation solutions.</p>
+                        <a href="services.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                    <div class="service-preview-card">
+                        <div class="service-preview-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3>Smart Technologies</h3>
+                        <p>Digital transformation and automation solutions for modern industries.</p>
+                        <a href="services.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Fixed Footer -->
+    <footer class="fixed-footer">
+        <div class="footer-content">
+            <div class="company-info">
+                <h4>Head Office</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 25 Tariq ibn Ziyad St., Mansoura, Egypt</p>
+                <p><i class="fas fa-phone"></i> +201001833599</p>
+                <p><i class="fas fa-envelope"></i> Info@Blackrank.co</p>
+            </div>
+            <div class="social-media">
+                <a href="https://facebook.com/blackrank" class="social-link" target="_blank" rel="noopener" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://linkedin.com/company/blackrank" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com/blackrank" class="social-link" target="_blank" rel="noopener" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/blackrank" class="social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com/blackrank" class="social-link" target="_blank" rel="noopener" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

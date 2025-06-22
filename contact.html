@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Black Rank Engineering Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Get in touch with Black Rank for your engineering and industrial solution needs. Contact our expert team today.">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="Black Rank Logo" class="logo">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <main class="page-content">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1>Contact Us</h1>
+                <p class="page-subtitle">Ready to discuss your next project? Get in touch with our expert team for comprehensive engineering solutions.</p>
+            </div>
+
+            <!-- Contact Form Section -->
+            <section class="content-section">
+                <h2 class="section-title">Send Us a Message</h2>
+                <div class="contact-form">
+                    <form id="contactForm" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">Company/Organization</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            <div class="form-group">
+                                <label for="position">Position/Title</label>
+                                <input type="text" id="position" name="position">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service of Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="epc">EPC Solutions</option>
+                                <option value="om">Operations & Maintenance</option>
+                                <option value="energy">Energy & Renewable Solutions</option>
+                                <option value="automation">Automation & Digital Transformation</option>
+                                <option value="mechanical">Mechanical Works & Fabrication</option>
+                                <option value="heavy">Heavy Industries & Petrochemicals</option>
+                                <option value="thermal">Thermal Insulation & Cooling</option>
+                                <option value="water">Water & Environmental Solutions</option>
+                                <option value="inspection">Industrial Inspection & Testing</option>
+                                <option value="smart-cities">Smart Cities & Real Estate</option>
+                                <option value="defense">Defense & Security Solutions</option>
+                                <option value="transportation">Smart Transportation</option>
+                                <option value="consultation">General Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Please provide details about your project requirements, timeline, and any specific questions you may have..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Project Budget Range (Optional)</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-50k">Under $50,000</option>
+                                <option value="50k-100k">$50,000 - $100,000</option>
+                                <option value="100k-500k">$100,000 - $500,000</option>
+                                <option value="500k-1m">$500,000 - $1,000,000</option>
+                                <option value="over-1m">Over $1,000,000</option>
+                                <option value="discuss">Prefer to discuss</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="urgent">Urgent (Within 1 month)</option>
+                                <option value="short">Short-term (1-3 months)</option>
+                                <option value="medium">Medium-term (3-6 months)</option>
+                                <option value="long">Long-term (6+ months)</option>
+                                <option value="planning">Planning phase</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Contact Information -->
+            <section class="content-section">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-info-grid">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Head Office</h4>
+                        <p>25 Tariq ibn Ziyad Street<br>Mansoura, Egypt</p>
+                        <p class="contact-note">Our main headquarters where our leadership team and core operations are based.</p>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Phone Numbers</h4>
+                        <p>Primary: +201001833599</p>
+                        <p>Office: +20 50 XXX XXXX</p>
+                        <p class="contact-note">Available during business hours for immediate assistance and emergency support.</p>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email Addresses</h4>
+                        <p>General Inquiries: Info@Blackrank.co</p>
+                        <p>Projects: projects@blackrank.co</p>
+                        <p>Support: support@blackrank.co</p>
+                        <p class="contact-note">We respond to all emails within 24 hours during business days.</p>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Business Hours</h4>
+                        <p>Sunday - Thursday: 8:00 AM - 6:00 PM</p>
+                        <p>Saturday: 9:00 AM - 2:00 PM</p>
+                        <p>Friday: Closed</p>
+                        <p class="contact-note">Emergency support available 24/7 for critical projects and existing clients.</p>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>Website & Online</h4>
+                        <p>Website: www.Blackrank.co</p>
+                        <p>LinkedIn: /company/blackrank</p>
+                        <p>Follow us for updates and industry insights.</p>
+                        <p class="contact-note">Visit our website for detailed service information and project portfolios.</p>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h4>Emergency Contact</h4>
+                        <p>24/7 Emergency Line: +201001833599</p>
+                        <p>For critical project issues and urgent technical support.</p>
+                        <p class="contact-note">Available for existing clients and emergency situations requiring immediate attention.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Office Location Map Placeholder -->
+            <section class="content-section">
+                <h2 class="section-title">Our Location</h2>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h3>Black Rank Head Office</h3>
+                            <p>25 Tariq ibn Ziyad Street, Mansoura, Egypt</p>
+                            <p>Easily accessible location in the heart of Mansoura with ample parking facilities.</p>
+                            <div class="map-directions">
+                                <a href="https://maps.google.com/?q=25+Tariq+ibn+Ziyad+Street+Mansoura+Egypt" target="_blank" class="directions-btn">
+                                    <i class="fas fa-directions"></i>
+                                    Get Directions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Contact Us -->
+            <section class="content-section">
+                <h2 class="section-title">Why Choose Black Rank</h2>
+                <div class="contact-benefits">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Quick Response</h4>
+                        <p>We respond to all inquiries within 24 hours and provide initial project assessments within 48 hours.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4>Expert Consultation</h4>
+                        <p>Direct access to our senior engineers and project managers for technical discussions and project planning.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Personalized Solutions</h4>
+                        <p>Customized engineering solutions tailored to your specific requirements, budget, and timeline.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Confidentiality</h4>
+                        <p>Complete confidentiality and non-disclosure agreements for all project discussions and proprietary information.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="content-section">
+                <div class="highlight-box" style="text-align: center;">
+                    <h3>Ready to Start Your Project?</h3>
+                    <p>Contact our expert team today to discuss your engineering needs and discover how Black Rank can help bring your vision to life with our comprehensive industrial solutions.</p>
+                    <div style="margin-top: 30px;">
+                        <a href="tel:+201001833599" class="menu-btn">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="mailto:Info@Blackrank.co" class="menu-btn" style="margin-left: 20px;">
+                            <i class="fas fa-envelope"></i> Send Email
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Contact Page Footer (without social media icons as requested) -->
+    <footer class="contact-footer">
+        <div class="footer-content">
+            <div class="company-info">
+                <h4>Head Office</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 25 Tariq ibn Ziyad St., Mansoura, Egypt</p>
+                <p><i class="fas fa-phone"></i> +201001833599</p>
+                <p><i class="fas fa-envelope"></i> Info@Blackrank.co</p>
+            </div>
+            <div class="footer-note">
+                <p>&copy; 2025 Black Rank. All rights reserved.</p>
+                <p>Engineering Power. Shaping Industries. Defining the Future.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Contact form handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Simple validation
+            if (!data.firstName || !data.lastName || !data.email || !data.subject || !data.message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Show success message (in real implementation, this would send to server)
+            alert('Thank you for your message! We will get back to you within 24 hours.');
+            
+            // Reset form
+            this.reset();
+        });
+        
+        // Form field enhancements
+        document.addEventListener('DOMContentLoaded', function() {
+            // Auto-format phone number
+            const phoneInput = document.getElementById('phone');
+            phoneInput.addEventListener('input', function(e) {
+                let value = e.target.value.replace(/\D/g, '');
+                if (value.length > 0) {
+                    if (value.startsWith('20')) {
+                        value = '+' + value;
+                    } else if (!value.startsWith('+')) {
+                        value = '+20' + value;
+                    }
+                }
+                e.target.value = value;
+            });
+            
+            // Dynamic subject suggestions based on service selection
+            const serviceSelect = document.getElementById('service');
+            const subjectInput = document.getElementById('subject');
+            
+            serviceSelect.addEventListener('change', function() {
+                const service = this.value;
+                if (service && !subjectInput.value) {
+                    const serviceNames = {
+                        'epc': 'EPC Solutions Inquiry',
+                        'om': 'Operations & Maintenance Services',
+                        'energy': 'Energy Solutions Consultation',
+                        'automation': 'Automation & Digital Transformation',
+                        'mechanical': 'Mechanical Works & Fabrication',
+                        'heavy': 'Heavy Industries Services',
+                        'thermal': 'Thermal Insulation Solutions',
+                        'water': 'Water & Environmental Solutions',
+                        'inspection': 'Industrial Inspection Services',
+                        'smart-cities': 'Smart Cities Development',
+                        'defense': 'Defense & Security Solutions',
+                        'transportation': 'Smart Transportation Systems',
+                        'consultation': 'General Engineering Consultation'
+                    };
+                    
+                    if (serviceNames[service]) {
+                        subjectInput.value = serviceNames[service];
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
